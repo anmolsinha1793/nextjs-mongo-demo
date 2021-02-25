@@ -14,3 +14,56 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  text-align: center;
+}
+
+.content__wrapper {
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.navbar{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #33cc33;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__create{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar__brand {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.navbar__brand:hover, .navbar__create:hover {
+  color: #fff;
+}
+
+.form__container{
+  width: 400px;
+  margin: 20px auto;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+.form__container > div, .form__container > h1 {
+  padding: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.note__container {
+  text-align: center;
+  margin-left: 40%;
+}
