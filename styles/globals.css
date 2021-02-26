@@ -34,9 +34,10 @@ h1 {
   justify-content: space-between;
 }
 
-.navbar__create{
+.navbar__create, .navbar__d3Demo{
   color: #fff;
   font-size: 1.5rem;
+  float: right;
 }
 
 .navbar__brand {
@@ -66,4 +67,44 @@ h1 {
 .note__container {
   text-align: center;
   margin-left: 40%;
+}
+
+.container {
+  height: 200px;
+  width: 250px;
+  border: 1px solid rgb(146, 20, 146);
+  margin: 8px;
+}
+
+.bar {
+  fill: rgb(146, 20, 146);
+}
+
+#data ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#data li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0, 0.26);
+  width:  10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+#app {
+  display: flex;
+  margin: 2rem 1rem;
+}
+
+#chart {
+  box-shadow: 0 2px 8px rgba(0,0,0, 0.26);
+  padding: 1rem;
+}
+#chart, #data {
+  margin: 0 2rem;
 }
